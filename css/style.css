@@ -1,0 +1,91 @@
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  
+    
+}
+
+form{
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.7em;
+}
+
+
+form input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+form input:focus {
+    border: 2px solid #f72585;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+p{
+    color: #f72585;
+}
+a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+form a:hover {
+    color: #f72585;
+}
+
+button{
+    background-color: #f72585;
+    width: 50px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+th, td{
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th{
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
